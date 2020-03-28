@@ -55,7 +55,7 @@ class TicTacToe
     turn = 0 
     @board.each do |index|
       if index == "X" || index == "0"
-        turn += 1
+      turn += 1
       end
     end
     return turn
